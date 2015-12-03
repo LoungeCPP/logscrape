@@ -1,0 +1,7 @@
+{
+  "name": "logscrape",
+  "description": "REST API to lounge IRC logs",
+  "repository": "https://github.com/LoungeCPP/logscrape",
+  "keywords": ["node", "lounge", "irc"],
+  "image": "heroku/nodejs"
+}
