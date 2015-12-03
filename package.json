@@ -1,0 +1,17 @@
+{
+  "name": "logscrape",
+  "version": "0.1.0",
+  "description": "REST API to lounge IRC logs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "node-fetch" : "",
+    "handlebars" : ""
+  },
+  "author": "bananu7",
+  "repository": "https://github.com/LoungeCPP/logscrape.git",
+  "license": "MIT",
+  "readme": "README.md"
+}
