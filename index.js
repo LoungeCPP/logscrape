@@ -50,7 +50,7 @@ function logDayToHtml() {
     .then(function (logs) {
         console.log('got logs');
         return logs.split('\n').map(function(log) {
-            var msgRegex = /^\[(.*)\] <(.*?)> (.*)$/
+            var msgRegex = /^\[(.*?)\] <(.*?)> (.*)$/
             var result = log.match(msgRegex);
             if (!result)
                 return null;
